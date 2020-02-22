@@ -1,0 +1,294 @@
+.main {
+  width: 1020px;
+  margin-right: auto;
+  margin-left: auto;
+  position: static;
+}
+
+.header-back {
+  width: 1020px;
+  height: 94px;
+  margin-bottom: -15px;
+}
+
+.logo1 {
+  position: absolute;
+  top: 12px;
+  left: 290px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  width: fit-content;
+  letter-spacing: -0.5px;
+}
+.star {
+  position: relative;
+  left: 0px;
+  font-weight: 500;
+}
+.red {
+  color: #f06c64;
+}
+
+nav {
+  position: absolute;
+  top: 50px;
+  left: 858px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  color: white;
+  width: 372px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  letter-spacing: -0.5px;
+}
+
+.header-bottom {
+  height: 10px;
+  width: 1020px;
+}
+
+.interaction:hover {
+  color: red;
+}
+
+.separator1 {
+  position: relative;
+  top: -0.6px;
+  color: rgb(78, 78, 78);
+}
+
+.slider-back {
+  margin-top: -7px;
+  margin-bottom: -20px;
+}
+
+.vertical-phone {
+  position: absolute;
+  top: 155px;
+  left: 360px;
+}
+
+.horizontal-phone {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 391px;
+  left: 420.2px;
+}
+
+.vertical-shadow {
+  position: absolute;
+  top: 156.2px;
+  left: 361.8px;
+}
+
+.horizontal-shadow {
+  position: absolute;
+  top: 277px;
+  left: 675px;
+}
+
+.vertical-content {
+  position: absolute;
+  top: 221px;
+  left: 376px;
+  width: 188px;
+  height: 333px;
+  object-fit: none;
+  object-position: 3.6% 54.5%;
+}
+
+.horizontal-content {
+  position: absolute;
+  top: 290px;
+  left: 733px;
+  height: 189px;
+  width: 335px;
+  object-fit: none;
+  object-position: 50.4% 30.2%;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 384px;
+  left: 291px;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 384px;
+  left: 1213px;
+}
+
+.interaction1:hover {
+  transform: scale(2);
+}
+
+.slider-bottom {
+  margin-top: -5px;
+  height: 9px;
+  width: 1020px;
+}
+
+.services-back {
+  width: 1020px;
+  height: 507px;
+  margin-top: -6.5px;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  font-weight: 900;
+  top: 742px;
+  left: 289px;
+  font-size: 30px;
+  color: #666d89;
+  letter-spacing: 0.4px;
+}
+
+.services-container {
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  font-weight: 500;
+  top: 800px;
+  left: 290px;
+  font-size: 18px;
+  color: #666d89;
+  width: 938px;
+  line-height: 29px;
+}
+
+.service-block {
+  width: 300px;
+}
+
+.icon-circle1 {
+  position: absolute;
+  top: 122px;
+}
+
+.icon-circle2 {
+  position: absolute;
+  top: 122px;
+  left: 318px;
+}
+
+.icon-circle3 {
+  position: absolute;
+  top: 122px;
+  left: 638px;
+}
+
+.icon-circle4 {
+  position: absolute;
+  top: 245px;
+}
+
+.icon-circle5 {
+  position: absolute;
+  top: 245px;
+  left: 318px;
+}
+
+.icon-circle6 {
+  position: absolute;
+  top: 245px;
+  left: 638px;
+}
+
+.icon-pen {
+  position: absolute;
+  top: 135px;
+  left: 15px;
+}
+
+.icon-bulb {
+  position: absolute;
+  top: 135px;
+  left: 336px;
+}
+
+.icon-heart {
+  position: absolute;
+  top: 137px;
+  left: 651px;
+}
+
+.icon-phone {
+  position: absolute;
+  top: 258px;
+  left: 17px;
+}
+
+.icon-bubble {
+  position: absolute;
+  top: 261px;
+  left: 332px;
+}
+
+.icon-star {
+  position: absolute;
+  top: 259px;
+  left: 651px;
+}
+
+.text-block1 {
+  position: absolute;
+  top: 91px;
+  left: 80px;
+  width: 224px;
+  letter-spacing: 0.1px;
+}
+
+.text-block2 {
+  position: absolute;
+  top: 91px;
+  left: 398px;
+  width: 224px;
+  letter-spacing: 0.4px;
+}
+
+.text-block3 {
+  position: absolute;
+  top: 91px;
+  left: 720px;
+  width: 224px;
+  letter-spacing: 0.2px;
+}
+
+.text-block4 {
+  position: absolute;
+  top: 215px;
+  left: 80px;
+  width: 224px;
+  letter-spacing: 0.2px;
+}
+
+.text-block5 {
+  position: absolute;
+  top: 215px;
+  left: 398px;
+  width: 224px;
+  letter-spacing: 0.1px;
+}
+
+.text-block6 {
+  position: absolute;
+  top: 215px;
+  left: 720px;
+  width: 224px;
+  letter-spacing: 0.3px;
+}
+
+.small-text {
+  position: relative;
+  top: -18px;
+  font-size: 12px;
+  line-height: 22px;
+}
