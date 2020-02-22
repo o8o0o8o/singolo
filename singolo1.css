@@ -291,4 +291,17 @@ h1 {
   top: -18px;
   font-size: 12px;
   line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 66px;
+}
+
+.small-text1 {
+  position: relative;
+  top: -18px;
+  font-size: 12px;
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 66px;
 }
