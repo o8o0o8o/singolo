@@ -131,14 +131,16 @@ nav {
 
 .slider-bottom {
   margin-top: -5px;
-  height: 9px;
+  height: 7px;
   width: 1020px;
 }
 
 .services-back {
   width: 1020px;
-  height: 507px;
+  height: 497px;
   margin-top: -6.5px;
+  margin-bottom: -14px;
+
 }
 
 h1 {
@@ -304,4 +306,9 @@ h1 {
   overflow: hidden;
   text-overflow: ellipsis;
   height: 66px;
+}
+
+.services-bottom {
+  height: 7px;
+  width: 1020px;
 }
