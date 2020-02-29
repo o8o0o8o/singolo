@@ -1,0 +1,291 @@
+.main {
+  width: 1020px;
+  margin-right: auto;
+  margin-left: auto;
+  position: static;
+}
+
+.portfolio-back {
+  width: 1020px;
+  height: 868px;
+  margin-bottom: -16px;
+}
+
+.portfolio-container {
+  position: absolute;
+  top: 48.2px;
+  left: 289px;
+  width: 960px;
+}
+
+.grey-text {
+  font-family: "Lato", sans-serif;
+  color: #5e657e;
+}
+
+.portfolio-text {
+  font-weight: 900;
+  letter-spacing: 0.7px;
+  font-size: 15px;
+}
+
+.portfolio-description {
+  position: absolute;
+  top: 62px;
+  left: -1px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  word-spacing: 0.5px;
+  font-size: 17px;
+}
+
+.button-bar {
+  position: absolute;
+  top: -19.5px;
+  left: 1px;
+  display: flex;
+  flex-direction: row;
+  width: 288px;
+  justify-content: space-between;
+}
+
+.picture-select {
+  background-color: #2d2f39;
+  border: 1px solid #5e657e;
+  color: aliceblue;
+  border-radius: 4px;
+  font-size: 11px;
+  padding: 3.5px 7px 3.5px 7px;
+  letter-spacing: 0.5px;
+
+}
+
+.picture-select:active {
+  background-color: black;
+}
+
+.image-bar {
+  position: absolute;
+  top: 134.8px;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  overflow: hidden;
+  height: 630px;
+}
+
+.img-size {
+  width: 220px;
+  height: 186px;
+  margin: 21px 0 0 0;
+}
+
+.first {
+  object-fit: none;
+  object-position: 38% 20%;
+}
+
+.second {
+  object-fit: none;
+  object-position: 56.6% 49.2%;
+}
+
+.third {
+  object-fit: none;
+  object-position: 38% 0%;
+}
+
+.fourth {
+  object-fit: none;
+  object-position: 55% 20%;
+}
+
+.fifth {
+  object-fit: none;
+  object-position: 44% 19%;
+}
+
+.sixth {
+  object-fit: none;
+  object-position: 41% 70%;
+}
+
+.seventh {
+  object-fit: none;
+  object-position: 20% 21.2%;
+}
+
+.eigth {
+  object-fit: none;
+  object-position: 40% 35.6%;
+}
+
+.ninth {
+  object-fit: none;
+  object-position: 46% 56%;
+}
+
+.tenth {
+  object-fit: none;
+  object-position: 55.2% 24%;
+}
+
+.eleventh {
+  object-fit: none;
+  object-position: 74% 78%;
+}
+
+.twelfth {
+  object-fit: none;
+  object-position: 44% 26%;
+}
+
+.portfolio-bottom {
+}
+
+.about-us {
+  margin-top: -6.8124px;
+}
+
+.about-us-back {
+  margin-bottom: -15px;
+}
+
+.about-us-header {
+  letter-spacing: -0.1px;
+  font-size: 31px;
+  font-weight: 900;
+}
+
+.about-us-content {
+  position: absolute;
+  top: 915px;
+  left: 290px;
+  width: 960px;
+}
+
+.about-description {
+  position: relative;
+  top: -1px;
+  left: -1px;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+  word-spacing: 1px;
+  line-height: 30px;
+}
+
+.faces {
+  position: absolute;
+  top: 181px;
+  width: 940px;
+  left: -0.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.person {
+  width: 300px;
+}
+
+.photo {
+  height: 300px;
+}
+
+.name {
+  position: relative;
+  top: -8px;
+  left: -1px;
+  letter-spacing: -0.1px;
+}
+
+.person-description {
+  position: relative;
+  top: -18px;
+  font-size: 12px;
+  line-height: 22px;
+}
+.contact {
+  position: relative;
+  top: -7px;
+  left: 1px;
+  width: 152px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.f-icon {
+  border: 1px solid #5e657e;
+  border-radius: 100%;
+  padding: 15px;
+}
+
+.facebook {
+  position: absolute;
+  top: 9px;
+  left: 12px;
+}
+
+.google {
+  position: absolute;
+  top: 9px;
+  left: 49px;
+}
+
+.g-icon {
+  border: 1px solid #5e657e;
+  border-radius: 100%;
+  padding: 8px 8px 8px 8px;
+}
+
+.twitter {
+  position: absolute;
+  top: 9.5px;
+  left: 89px;
+}
+
+.tw-icon {
+  border: 1px solid #5e657e;
+  border-radius: 100%;
+  padding: 8px 8px 8px 8px;
+}
+
+.linkedin {
+  position: absolute;
+  top: 9px;
+  left: 129px;
+}
+
+.ln-icon {
+  border: 1px solid #5e657e;
+  border-radius: 100%;
+  padding: 8px 8px 8px 8px;
+}
+
+.interaction:hover {
+  color: red;
+  border: 1px solid red;
+}
+
+.rotate:hover {
+  animation-duration: 2s;
+  animation-name: roll;
+  animation-iteration-count: 1;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.about-us-bottom {
+  height: 8px;
+  width: 1020px;
+}
