@@ -1,0 +1,237 @@
+.main {
+  width: 1020px;
+  margin-right: auto;
+  margin-left: auto;
+  position: static;
+}
+
+.form {
+  height: 653px;
+  width: 1020px;
+  margin-bottom: -15px;
+}
+
+.get-quote {
+  position: absolute;
+  top: 48px;
+  left: 289px;
+  width: 960px;
+}
+
+.quote-description {
+  position: absolute;
+  top: 57px;
+  line-height: 29px;
+  font-size: 18px;
+  font-weight: 300;
+  word-spacing: 1.1px;
+}
+
+.form-text {
+  font-family: "Lato", sans-serif;
+  color: #F0D8D9;
+}
+
+.quote-header {
+  font-size: 29px;
+  letter-spacing: 0.5px;
+}
+
+.form-input {
+  position: absolute;
+  top: 224px;
+  left: 289px;
+  height: 366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-field {
+  width: 606px;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  background-color: #D6564F;
+  font-family: "Lato", sans-serif;
+  padding-left: 14px;
+  font-size: 12px;
+  color: #F08586;
+}
+
+.big {
+  height: 200px;
+}
+
+.big::placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: #F08586;
+  position: relative;
+  top: -84px;
+}
+
+.contact-information {
+    position: absolute;
+    top: 199px;
+    left: 929px;
+    width: 310px;
+    font-family: "Lato", sans-serif;
+    color: #F0D8D9;
+}
+
+.contact-header {
+  font-size: 18px;
+  letter-spacing: 0.1px;
+}
+
+.contact-description {
+  position: absolute;
+  top: 42px;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.contacts {
+  position: absolute;
+  top: 162px;
+  left: 3px;
+  width: 150px;
+  height: 59px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row {
+  block-size: 1rem;
+  position: static;
+}
+
+.contacts-caption {
+  position: relative;
+  top: -15px;
+  left: 20px;
+  font-size: 11px;
+  word-spacing: 2px;
+  letter-spacing: 0.1px;
+  line-height: 12px;
+  margin: 0;
+
+}
+
+.phone-icon {
+  position: relative;
+  left: -2px;
+}
+
+.email-icon {
+  position: relative;
+  left: -3px;
+}
+
+.phone-text {
+  letter-spacing: 0.5px;
+  word-spacing: 0.6px;
+}
+
+.email-text {
+  letter-spacing: 0.5px;
+}
+
+.form-bottom {
+  width: 1020px;
+  height: 9px;
+}
+
+.last-line {
+  position: absolute;
+  top: 680px;
+  left: 291px;
+  font-family: "Lato", sans-serif;
+  color: #5e657e;
+  letter-spacing: -0.1px;
+}
+
+.footer {
+  margin-top: -8px;
+  margin-bottom: -15px;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+.rotate:hover {
+  animation-duration: 2s;
+  animation-name: roll;
+  animation-iteration-count: 1;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.contact {
+  position: absolute;
+  top: 5px;
+  left: 786px;
+  width: 152px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.f-icon {
+  border: 1px solid #5e657e;
+  border-radius: 100%;
+  padding: 15px;
+}
+
+.facebook {
+  position: absolute;
+  top: 9px;
+  left: 12px;
+}
+
+.google {
+  position: absolute;
+  top: 9px;
+  left: 49px;
+}
+
+.g-icon {
+  border: 1px solid #5e657e;
+  border-radius: 100%;
+  padding: 8px 8px 8px 8px;
+}
+
+.twitter {
+  position: absolute;
+  top: 9.5px;
+  left: 89px;
+}
+
+.tw-icon {
+  border: 1px solid #5e657e;
+  border-radius: 100%;
+  padding: 8px 8px 8px 8px;
+}
+
+.linkedin {
+  position: absolute;
+  top: 9px;
+  left: 129px;
+}
+
+.ln-icon {
+  border: 1px solid #5e657e;
+  border-radius: 100%;
+  padding: 8px 8px 8px 8px;
+}
+
