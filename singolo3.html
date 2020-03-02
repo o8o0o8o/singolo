@@ -1,78 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+      rel="stylesheet"
+      />
     <meta charset="utf-8" />
     <title>Singolo3</title>
     <link rel="stylesheet" href="singolo3.css" />
   </head>
-
   <body class="main">
-    <form>
-      <img class="form" src="assets/form.png" />
+    <form id="form">
+      <img class="form" src="assets/form.png" alt="form background" />
       <div class="get-quote form-text">
         <h1 class="quote-header">Get a Quote</h1>
         <p class="quote-description">
           Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
-          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.Fusce dapibus, tellus ac cursus commodo,
+          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit.Fusce dapibus, tellus ac cursus commodo,
           tortor mauris condimentum nibh.
         </p>
       </div>
-      <section class="form-input">
-        <input class="text-field" type="text" value="Name (Required)" />
-        <input class="text-field" type="text" value="Email (Required)" />
-        <input class="text-field" type="text" value="Subject" />
+      <div class="form-input">
+        <script>
+          function validation() {
+            let form = document.getElementById("form");
+            function handleForm(event) {
+              event.preventDefault();
+            }
+            form.addEventListener("submit", handleForm);
+            let email = document.getElementById("email").value;
+            let name = document.getElementById("name").value;
+            let namecheck = /\w{3,}/;
+            if (!namecheck.test(name)) {
+              document.getElementById("name").placeholder =
+                "Name should be at least 3 letters long";
+            }
+            let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            if (!re.test(String(email).toLowerCase())) {
+              document.getElementById("email").placeholder =
+                "This is not a valid email address";
+            }
+          }
+        </script>
+        <input
+          class="text-field"
+          type="text"
+          placeholder="Name (Required)"
+          id="name"
+          />
+        <input
+          class="text-field"
+          type="text"
+          placeholder="Email (Required)"
+          id="email"
+          />
+        <input class="text-field" type="text" placeholder="Subject" />
         <input
           class="text-field big"
           type="text"
           placeholder="Describe your project in detail..."
-        />
-      </section>
-      <section class="contact-information">
-
+          />
+        <input
+          class="submit"
+          type="submit"
+          value="Submit"
+          onclick="validation()"
+          />
+      </div>
+      <div class="contact-information">
         <div>
           <h4 class="contact-header">Contact Information</h4>
           <p class="contact-description">
             Quisque hendrerit purus dapibus, ornare nibh vitae, viver- ra nibh.
-            Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed
-            nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat
-            frlis.
+            Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla
+            sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et
+            consequat frlis.
           </p>
         </div>
-
         <div class="contacts">
           <div class="address row">
-              <img class="address-icon" src="assets/location.png"/>
-              <p class="address-text contacts-caption">Elm St. 14/05 Lost City</p>
+            <img class="address-icon" src="assets/location.png" alt="address"/>
+            <p class="address-text contacts-caption">Elm St. 14/05 Lost City</p>
           </div>
           <div class="phone row">
-            <img class="phone-icon" src="assets/phone1.png"/>
-            <p class="phone-text contacts-caption">03528 331 86 35</p>
+            <img class="phone-icon" src="assets/phone1.png" alt="phone"/>
+            <a href="tel:035283318635"
+              >
+              <p class="phone-text contacts-caption">03528 331 86 35</p>
+            </a
+              >
+          </div>
+          <div class="email row">
+            <img class="email-icon" src="assets/mail.png" alt="email"/>
+            <a href="mailto:info@singolo.com"
+              >
+              <p class="email-text contacts-caption">info@singolo.com</p>
+            </a
+              >
+          </div>
         </div>
-        <div class="email row">
-          <img class="email-icon" src="assets/mail.png"/>
-          <p class="email-text contacts-caption">info@singolo.com</p>
       </div>
-        </div>
-
-      </section>
-      <img class="form-bottom" src="assets/formbottom.png" />
+      <img class="form-bottom" src="assets/formbottom.png" alt="form bottom"/>
     </form>
     <footer>
       <div class="last-line">
         <p class="copyright">© Copyright 2013</p>
         <div class="contact end">
           <div class="f-icon"></div>
-          <img class="facebook rotate" src="assets/facebook.png" alt="facebook" />
+          <img
+            class="facebook rotate"
+            src="assets/facebook.png"
+            alt="facebook"
+            />
           <div class="f-icon"></div>
           <img class="google rotate" src="assets/google+.png" alt="google+" />
           <div class="f-icon"></div>
           <img class="twitter rotate" src="assets/twitter.png" alt="twitter" />
           <div class="f-icon"></div>
-          <img class="linkedin rotate" src="assets/linkedin.png" alt="linkedin" />
+          <img
+            class="linkedin rotate"
+            src="assets/linkedin.png"
+            alt="linkedin"
+            />
+        </div>
       </div>
-      </div>
-      <img class="footer" src="assets/footer.png" />
+      <img class="footer" src="assets/footer.png" alt="footer"/>
     </footer>
   </body>
 </html>
