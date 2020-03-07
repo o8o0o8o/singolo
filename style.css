@@ -1,31 +1,30 @@
-  @font-face {
+@font-face {
   font-family: "LatoRegular";
-  src:  url("./assets//fonts/Lato-Regular.ttf") format("ttf");
+  src: url("./assets//fonts/Lato-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "LatoBold";
-  src:  url("./assets//fonts/Lato-Bold.ttf") format("ttf");
+  src: url("./assets//fonts/Lato-Bold.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "LatoBlack";
-  src:  url("./assets//fonts/Lato-Black.ttf") format("ttf");
+  src: url("./assets//fonts/Lato-Black.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "LatoLight";
-  src:  url("./assets//fonts/Lato-Light.ttf") format("ttf");
+  src: url("./assets//fonts/Lato-Light.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
-
 
 .main {
   width: 1020px;
@@ -169,7 +168,6 @@ nav {
   height: 497px;
   margin-top: -6.5px;
   margin-bottom: -14px;
-
 }
 
 h1 {
@@ -410,7 +408,6 @@ h1 {
   font-size: 11px;
   padding: 3.5px 7px 3.5px 7px;
   letter-spacing: 0.5px;
-
 }
 
 .picture-select:active {
@@ -497,7 +494,6 @@ h1 {
 
 .about-us {
   margin-top: -6.8124px;
-
 }
 
 .about-us-back {
@@ -574,9 +570,9 @@ h1 {
 }
 
 .end {
-position: absolute;
-top: 3px;
-left: 788px;
+  position: absolute;
+  top: 3px;
+  left: 788px;
 }
 
 .social {
@@ -684,7 +680,6 @@ left: 788px;
   left: 0px;
   width: 960px;
   margin-bottom: 0px;
-
 }
 
 .quote-description {
@@ -697,19 +692,19 @@ left: 788px;
   word-spacing: 1.1px;
   width: 960px;
   font-family: "Lato", sans-serif;
-  color: #F0D8D9;
+  color: #f0d8d9;
 }
 
 .form-text {
   font-family: "Lato", sans-serif;
-  color: #F0D8D9;
+  color: #f0d8d9;
 }
 
 .quote-header {
   font-size: 29px;
   letter-spacing: -1.5px;
   font-family: "LatoBlack", sans-serif;
-  color: #F0D8D9;
+  color: #f0d8d9;
 }
 
 .form-input {
@@ -734,14 +729,14 @@ left: 788px;
   height: 36px;
   border: none;
   border-radius: 4px;
-  background-color: #D6564F;
+  background-color: #d6564f;
   padding-left: 14px;
 }
 
 .text-field::placeholder {
   font-family: "Lato", sans-serif;
   font-size: 12px;
-  color: #F08586;
+  color: #f08586;
 }
 
 .big {
@@ -751,25 +746,25 @@ left: 788px;
 .big::placeholder {
   font-family: "Lato", sans-serif;
   font-size: 12px;
-  color: #F08586;
+  color: #f08586;
   position: relative;
   top: -84px;
 }
 
 .submit {
-  background-color: #D6564F;
-  border: 1px #F0D8D9 solid;
+  background-color: #d6564f;
+  border: 1px #f0d8d9 solid;
   border-radius: 6px;
-  color: #F0D8D9;
+  color: #f0d8d9;
 }
 
 .contact-information {
-    position: absolute;
-    top: 2996px;
-    left: 929px;
-    width: 310px;
-    font-family: "LatoBlack", sans-serif;
-    color: #F0D8D9;
+  position: absolute;
+  top: 2996px;
+  left: 929px;
+  width: 310px;
+  font-family: "LatoBlack", sans-serif;
+  color: #f0d8d9;
 }
 
 .contact-header {
@@ -924,4 +919,3 @@ left: 788px;
   border-radius: 100%;
   padding: 8px 8px 8px 8px;
 }
-
