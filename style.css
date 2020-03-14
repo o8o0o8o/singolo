@@ -55,9 +55,6 @@
   left: 0px;
   font-weight: 500;
 }
-.red {
-  color: #f06c64;
-}
 
 nav {
   position: absolute;
@@ -918,4 +915,59 @@ h1 {
   border: 1px solid #5e657e;
   border-radius: 100%;
   padding: 8px 8px 8px 8px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.active-link {
+  color: #d6564f;
+}
+
+.red {
+  color: #d6564f;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.gif {
+  position: absolute;
+  top: 163px;
+  width: 1020px;
+}
+
+.border-me {
+  border: #F06C64 solid 5px;
+}
+
+.modal {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  top: -30px;
+  width: 40%;
+  height: 150px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding-left: 15px;
+  height: 130px;
+  border-radius: 5px;
+}
+
+.close {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
