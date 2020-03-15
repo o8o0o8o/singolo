@@ -934,12 +934,6 @@ a {
   visibility: hidden;
 }
 
-.gif {
-  position: absolute;
-  top: 163px;
-  width: 1020px;
-}
-
 .border-me {
   border: #F06C64 solid 5px;
 }
@@ -970,4 +964,13 @@ a {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.cat {
+  position: absolute;
+  top: 103px;
+  width: 1020px;
+  height: 600px;
+  object-fit: none;
+  object-position: 73%;
 }
