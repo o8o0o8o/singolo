@@ -51,11 +51,14 @@ function carousel(clas) {
 
 function phoneScreen(id) {
   let el = document.getElementById(`${id}`);
-  if (el.classList.contains("hidden")) {
+  /*if (el.classList.contains("hidden")) {
     el.classList.remove("hidden");
   } else {
     el.classList.add("hidden");
   }
+  */
+el.classList.toggle("hidden");
+console.log(el.classList)
 }
 
 function portoFun(id) {
@@ -80,8 +83,6 @@ function emphasize(id) {
 function onTheGo() {
   if (validation()) {
     let modal = document.getElementById("myModal");
-    //let span = document.getElementsByClassName("close")[0];
-
     let message = [];
     message.push("Письмо отправлено");
     message.push(document.getElementById("subject").value);
@@ -117,3 +118,6 @@ function onTheGo() {
     };
   }
 }
+
+
+

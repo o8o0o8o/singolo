@@ -1,3 +1,10 @@
+@media (min-width: 1025px) {
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+
 @font-face {
   font-family: "LatoRegular";
   src: url("./assets//fonts/Lato-Regular.ttf") format("ttf");
@@ -337,12 +344,7 @@ h1 {
   height: 7px;
   width: 1020px;
 }
-.main {
-  width: 1020px;
-  margin-right: auto;
-  margin-left: auto;
-  position: static;
-}
+
 
 .portfolio-back {
   margin-top: -3.5px;
@@ -973,4 +975,26 @@ a {
   height: 600px;
   object-fit: none;
   object-position: 73%;
+}
+
+.ver-phone-btn {
+  position: absolute;
+  top: 565px;
+  left: 449px;
+  border-radius: 50%;
+  border: none;
+  padding: 21px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.hor-phone-btn {
+  position: absolute;
+  top: 363px;
+  left: 682px;
+  border-radius: 50%;
+  border: none;
+  padding: 21px;
+  z-index: 1;
+  opacity: 0;
 }
