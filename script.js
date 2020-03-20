@@ -26,7 +26,6 @@ function validation() {
   } else {
     mailCheck = true;
   }
-
   return mailCheck && nameCheck;
 }
 
@@ -38,27 +37,53 @@ function activeLink(id) {
   document.getElementById(`${id}`).classList.add("active-link");
 }
 
-function carousel(clas) {
-  let slides = document.querySelectorAll(".slider");
-  for (let i = 0; i < slides.length; i++) {
-    if (slides[i].classList.contains(`${clas}`)) {
-      slides[i].classList.add("hidden");
-      continue;
-    }
-    slides[i].classList.remove("hidden");
+function carouselRight() {
+  let cat = document.getElementById("cat");
+  let catRect = cat.getBoundingClientRect();
+  if (catRect.left === 249.5 && cat.width === 0) {
+    cat.style.width = "1020px";
+  }
+   if (catRect.left === 249.5 && catRect.width === 1020) {
+    cat.style.left = "1270px";
+    cat.style.width = "0";
+    cat.style.transition = "all 0.6s";
+  }
+  if (catRect.left === 1270 && catRect.width === 0) {
+    cat.style.transition = "width 0.6s";
+    cat.style.left = "249.5px";
+    cat.style.width = "1020px";
+  }
+}
+
+function carouselLeftPrep() {
+  let cat = document.getElementById("cat");
+  let catRect = cat.getBoundingClientRect();
+  if (catRect.left === 249.5 && cat.width === 0) {
+    cat.style.left = "1270px";
+    cat.style.transition = "none";
+  }
+}
+
+function carouselLeft() {
+  let cat = document.getElementById("cat");
+  let catRect = cat.getBoundingClientRect();
+  if (catRect.left === 1270 && catRect.width === 0) {
+    cat.style.transition = "all 0.6s";
+    cat.style.left = "249.5px";
+    cat.style.width = "1020px";
+  }
+   if (catRect.left === 249.5 && catRect.width === 1020) {
+    cat.style.width = "0";
+   }
+  if (catRect.left === 1270 && catRect.width === 0) {
+
   }
 }
 
 function phoneScreen(id) {
   let el = document.getElementById(`${id}`);
-  /*if (el.classList.contains("hidden")) {
-    el.classList.remove("hidden");
-  } else {
-    el.classList.add("hidden");
-  }
-  */
-el.classList.toggle("hidden");
-console.log(el.classList)
+  el.classList.toggle("hidden");
+  console.log(el.classList);
 }
 
 function portoFun(id) {
@@ -110,6 +135,10 @@ function onTheGo() {
     modal.style.display = "block";
     close.onclick = function() {
       modal.style.display = "none";
+      document.getElementById("email").value = "";
+      document.getElementById("name").value = "";
+      document.getElementById("description").value =  "";
+      document.getElementById("subject").value = "";
     };
     window.onclick = function(event) {
       if (event.target == modal) {
@@ -118,6 +147,3 @@ function onTheGo() {
     };
   }
 }
-
-
-

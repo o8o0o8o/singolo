@@ -40,6 +40,11 @@
   position: static;
 }
 
+#header {
+  position: fixed;
+  z-index: 1;
+}
+
 .header-back {
   width: 1020px;
   height: 94px;
@@ -48,8 +53,8 @@
 
 .logo1 {
   position: absolute;
-  top: 13px;
-  left: 288px;
+  top: 5px;
+  left: 39px;
   font-family: "LatoBold", sans-serif;
   font-weight: 500;
   font-size: 25px;
@@ -65,8 +70,8 @@
 
 nav {
   position: absolute;
-  top: 50px;
-  left: 858px;
+  top: 40px;
+  left: 610px;
   font-weight: 600;
   font-family: "Lato", sans-serif;
   letter-spacing: 0.5px;
@@ -96,7 +101,7 @@ nav {
 }
 
 .slider-back {
-  margin-top: -7px;
+  margin-top: 94px;
   margin-bottom: -20px;
 }
 
@@ -971,10 +976,13 @@ a {
 .cat {
   position: absolute;
   top: 103px;
-  width: 1020px;
+  width: 0;
+  left: 249.5px;
   height: 600px;
   object-fit: none;
   object-position: 73%;
+  transition-property: all;
+  transition-duration: 0.6s;
 }
 
 .ver-phone-btn {

@@ -10,7 +10,7 @@
       <img class="header-back" src="assets/Header.png" alt="whatever" />
       <p class="logo1 interaction">SINGOLO<span class="red star">*</span></p>
       <nav>
-        <a class="links" href="#header" id="a-home" onclick="activeLink(id)"><div class="interaction">HOME</div></a>
+        <a class="links" href="#home" id="a-home" onclick="activeLink(id)"><div class="interaction">HOME</div></a>
         <div class="separator1 ">•</div>
         <a class="links" href="#services" id="a-services" onclick="activeLink(id)"><div class="interaction">SERVICES</div></a>
         <div class="separator1 ">•</div>
@@ -22,7 +22,7 @@
       </nav>
       <img class="header-bottom" src="assets/HeaderBottom.png" alt="whatever" />
     </header>
-    <div class="slider-group slider slide1">
+    <div class="slider-group slider slide1" id="home">
       <button class="ver-phone-btn" onclick="phoneScreen('ver')"></button>
       <button class="hor-phone-btn" onclick="phoneScreen('hor')"></button>
       <img class="slider-back" src="assets/Bg2.png" alt="whatever" />
@@ -35,26 +35,26 @@
       <img
         class="arrow-left interaction1"
         src="assets/chev2.png"
-        alt="whatever" onclick="carousel('slide1')"
+        alt="whatever" onclick="carouselLeft('slide1')" onmouseover="carouselLeftPrep()"
       />
       <img
         class="arrow-right interaction1"
         src="assets/chev.png"
-        alt="whatever" onclick="carousel('slide1')"
+        alt="whatever" onclick="carouselRight('slide1')"
       />
       <img class="slider-bottom" src="assets/BgBottom2.png" alt="whatever" />
     </div>
-    <div class="slider hidden slide2">
-      <img class="cat" alt="cat" src="assets/cat.jpg">
+    <div class="slider slide2">
+      <img class="cat" alt="cat" src="assets/cat.jpg" id="cat">
       <img
       class="arrow-left interaction1"
       src="assets/chev2.png"
-      alt="whatever" onclick="carousel('slide2')"
+      alt="whatever" onclick="carouselLeft('slide2')" onmouseover="carouselLeftPrep()"
     />
     <img
       class="arrow-right interaction1"
       src="assets/chev.png"
-      alt="whatever" onclick="carousel('slide2')"
+      alt="whatever" onclick="carouselRight('slide2')"
     />
     </div>
     <div class="services" id="services">
