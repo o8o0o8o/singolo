@@ -5,7 +5,7 @@
     <title>Singolo</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="main">
+  <body class="main" id="main">
     <header id="header">
       <img class="header-back" src="assets/Header.png" alt="whatever" />
       <p class="logo1 interaction">SINGOLO<span class="red star">*</span></p>
@@ -35,26 +35,26 @@
       <img
         class="arrow-left interaction1"
         src="assets/chev2.png"
-        alt="whatever" onclick="carouselLeft('slide1')" onmouseover="carouselLeftPrep()"
+        alt="whatever" onclick="carouselLeft()" onmouseover="carouselLeftPrep()"
       />
       <img
         class="arrow-right interaction1"
         src="assets/chev.png"
-        alt="whatever" onclick="carouselRight('slide1')"
+        alt="whatever" onclick="carouselRight()"
       />
       <img class="slider-bottom" src="assets/BgBottom2.png" alt="whatever" />
     </div>
     <div class="slider slide2">
-      <img class="cat" alt="cat" src="assets/cat.jpg" id="cat">
+      <img class="cat" alt="cat" src="assets/cat.jpg" id="cat" onload="getLeft()">
       <img
       class="arrow-left interaction1"
       src="assets/chev2.png"
-      alt="whatever" onclick="carouselLeft('slide2')" onmouseover="carouselLeftPrep()"
+      alt="whatever" onclick="carouselLeft()" onmouseover="carouselLeftPrep()"
     />
     <img
       class="arrow-right interaction1"
       src="assets/chev.png"
-      alt="whatever" onclick="carouselRight('slide2')"
+      alt="whatever" onclick="carouselRight()" 
     />
     </div>
     <div class="services" id="services">

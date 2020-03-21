@@ -38,46 +38,57 @@ function activeLink(id) {
 }
 
 function carouselRight() {
+  const left = document.getElementById("main").getBoundingClientRect().left;
   let cat = document.getElementById("cat");
   let catRect = cat.getBoundingClientRect();
-  if (catRect.left === 249.5 && cat.width === 0) {
+  const lw = left + 1020;
+  console.log(catRect.left, catRect.width, lw);
+  if (catRect.left === left && cat.width === 0) {
     cat.style.width = "1020px";
   }
-   if (catRect.left === 249.5 && catRect.width === 1020) {
-    cat.style.left = "1270px";
+   if (catRect.left === left && catRect.width === 1020) {
+    cat.style.left = `${lw}px`;
     cat.style.width = "0";
     cat.style.transition = "all 0.6s";
   }
-  if (catRect.left === 1270 && catRect.width === 0) {
+  if (catRect.left.toFixed(3) === lw.toFixed(3) && catRect.width === 0) {
     cat.style.transition = "width 0.6s";
-    cat.style.left = "249.5px";
+    cat.style.left = `${left}px`;
     cat.style.width = "1020px";
   }
 }
 
 function carouselLeftPrep() {
+  const left = document.getElementById("main").getBoundingClientRect().left;
   let cat = document.getElementById("cat");
   let catRect = cat.getBoundingClientRect();
-  if (catRect.left === 249.5 && cat.width === 0) {
-    cat.style.left = "1270px";
+  const lw = left + 1020;
+  if (catRect.left === left && cat.width === 0) {
+    cat.style.left = `${lw}px`;
     cat.style.transition = "none";
   }
 }
 
 function carouselLeft() {
+  const left = document.getElementById("main").getBoundingClientRect().left;
   let cat = document.getElementById("cat");
   let catRect = cat.getBoundingClientRect();
-  if (catRect.left === 1270 && catRect.width === 0) {
+  const lw = left + 1020;
+  console.log(catRect.left, catRect.width, lw);
+  if (catRect.left.toFixed(3) === lw.toFixed(3) && catRect.width === 0) {
     cat.style.transition = "all 0.6s";
-    cat.style.left = "249.5px";
+    cat.style.left = `${left}px`;
     cat.style.width = "1020px";
   }
-   if (catRect.left === 249.5 && catRect.width === 1020) {
+   if (catRect.left === left && catRect.width === 1020) {
     cat.style.width = "0";
    }
-  if (catRect.left === 1270 && catRect.width === 0) {
+}
 
-  }
+function getLeft() {
+  const left = document.getElementById("main").getBoundingClientRect().left;
+  let cat = document.getElementById("cat");
+  cat.style.left = `${left}px`;
 }
 
 function phoneScreen(id) {
