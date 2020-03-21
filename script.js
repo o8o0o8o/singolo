@@ -42,7 +42,6 @@ function carouselRight() {
   let cat = document.getElementById("cat");
   let catRect = cat.getBoundingClientRect();
   const lw = left + 1020;
-  console.log(catRect.left, catRect.width, lw);
   if (catRect.left === left && cat.width === 0) {
     cat.style.width = "1020px";
   }
@@ -74,7 +73,6 @@ function carouselLeft() {
   let cat = document.getElementById("cat");
   let catRect = cat.getBoundingClientRect();
   const lw = left + 1020;
-  console.log(catRect.left, catRect.width, lw);
   if (catRect.left.toFixed(3) === lw.toFixed(3) && catRect.width === 0) {
     cat.style.transition = "all 0.6s";
     cat.style.left = `${left}px`;
@@ -83,6 +81,17 @@ function carouselLeft() {
    if (catRect.left === left && catRect.width === 1020) {
     cat.style.width = "0";
    }
+  setTimeout(() => {
+    const left = document.getElementById("main").getBoundingClientRect().left;
+    let cat = document.getElementById("cat");
+    let catRect = cat.getBoundingClientRect();
+    const lw = left + 1020;
+    if (catRect.left === left && cat.width === 0) {
+      cat.style.left = `${lw}px`;
+      cat.style.transition = "none";
+    }
+  }, 0);
+
 }
 
 function getLeft() {
