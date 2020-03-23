@@ -671,8 +671,8 @@ h1 {
 
 .get-quote {
   position: absolute;
-  top: 2104px;
-  left: 0px;
+  top: 2798px;
+  left: 289px;
   width: 960px;
   margin-bottom: 0px;
 }
@@ -997,7 +997,7 @@ a {
   z-index: 1;
   opacity: 0;
 }
-} 
+}
 
 @media (min-width: 768px) and (max-width: 1019px) {
 
