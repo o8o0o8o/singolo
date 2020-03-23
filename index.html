@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Singolo</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -10,102 +14,105 @@
       <img class="header-back" src="assets/Header.png" alt="whatever" />
       <p class="logo1 interaction">SINGOLO<span class="red star">*</span></p>
       <nav>
-        <a class="links" href="#home" id="a-home" onclick="activeLink(id)"><div class="interaction">HOME</div></a>
+        <a class="links" href="#home" id="a-home" onclick="activeLink(id)"
+          ><div class="interaction">HOME</div></a
+        >
         <div class="separator1 ">•</div>
-        <a class="links" href="#services" id="a-services" onclick="activeLink(id)"><div class="interaction">SERVICES</div></a>
+        <a
+          class="links"
+          href="#services"
+          id="a-services"
+          onclick="activeLink(id)"
+          ><div class="interaction">SERVICES</div></a
+        >
         <div class="separator1 ">•</div>
-        <a class="links" href="#portfolio" id="a-portfolio" onclick="activeLink(id)"><div class="interaction">PORTFOLIO</div></a>
+        <a
+          class="links"
+          href="#portfolio"
+          id="a-portfolio"
+          onclick="activeLink(id)"
+          ><div class="interaction">PORTFOLIO</div></a
+        >
         <div class="separator1 ">•</div>
-        <a class="links" href="#about" id="a-about" onclick="activeLink(id)"><div class="interaction">ABOUT</div></a>
+        <a class="links" href="#about" id="a-about" onclick="activeLink(id)"
+          ><div class="interaction">ABOUT</div></a
+        >
         <div class="separator1 ">•</div>
-        <a class="links" href="#contact" id="a-contact" onclick="activeLink(id)"><div class="interaction">CONTACT</div></a>
+        <a class="links" href="#contact" id="a-contact" onclick="activeLink(id)"
+          ><div class="interaction">CONTACT</div></a
+        >
       </nav>
       <img class="header-bottom" src="assets/HeaderBottom.png" alt="whatever" />
     </header>
     <div class="slider-group slider slide1" id="home">
-      <button class="ver-phone-btn" onclick="phoneScreen('ver')"></button>
-      <button class="hor-phone-btn" onclick="phoneScreen('hor')"></button>
-      <img class="slider-back" src="assets/Bg2.png" alt="whatever" />
-      <img class="vertical-shadow" src="assets/Shadow.png" alt="whatever" />
-      <img class="horizontal-shadow" src="assets/Shadow2.png" alt="whatever" />
-      <img class="vertical-phone" src="assets/Slider.png" alt="whatever"  />
-      <img class="horizontal-phone" src="assets/Slider.png" alt="whatever" />
-      <img class="vertical-content" src="assets/Layer6.png" alt="whatever" id="ver" />
-      <img class="horizontal-content" src="assets/Layer5.png" alt="whatever" id="hor" />
+      <div class="v-phone">
+        <button class="ver-phone-btn" onclick="phoneScreen('ver')"></button>
+        <img class="vertical-shadow" src="assets/Shadow.png" alt="whatever" />
+        <img class="vertical-phone" src="assets/Slider.png" alt="whatever" />
+        <img
+          class="vertical-content"
+          src="assets/Layer6.png"
+          alt="whatever"
+          id="ver"
+        />
+      </div>
+      <div class="h-phone">
+        <button class="hor-phone-btn" onclick="phoneScreen('hor')"></button>
+        <img
+          class="horizontal-shadow"
+          src="assets/Shadow2.png"
+          alt="whatever"
+        />
+        <img class="horizontal-phone" src="assets/Slider.png" alt="whatever" />
+        <img
+          class="horizontal-content"
+          src="assets/Layer5.png"
+          alt="whatever"
+          id="hor"
+        />
+      </div>
+      <img class="slider-back" id="slide1" src="assets/Bg2.png" alt="whatever" />
       <img
         class="arrow-left interaction1"
         src="assets/chev2.png"
-        alt="whatever" onclick="carouselLeft()" onmouseover="carouselLeftPrep()"
+        alt="whatever"
+        onclick="carouselLeft()"
+        onmouseover="carouselLeftPrep()"
       />
       <img
         class="arrow-right interaction1"
         src="assets/chev.png"
-        alt="whatever" onclick="carouselRight()"
+        alt="whatever"
+        onclick="carouselRight()"
       />
       <img class="slider-bottom" src="assets/BgBottom2.png" alt="whatever" />
     </div>
     <div class="slider slide2">
-      <img class="cat" alt="cat" src="assets/cat.jpg" id="cat" onload="getLeft()">
       <img
-      class="arrow-left interaction1"
-      src="assets/chev2.png"
-      alt="whatever" onclick="carouselLeft()" onmouseover="carouselLeftPrep()"
-    />
-    <img
-      class="arrow-right interaction1"
-      src="assets/chev.png"
-      alt="whatever" onclick="carouselRight()" 
-    />
+        class="cat"
+        alt="cat"
+        src="assets/cat.jpg"
+        id="cat"
+        onload="getLeft()"
+      />
     </div>
     <div class="services" id="services">
       <img class="services-back" src="assets/Bg.png" alt="whatever" />
-      <h1>Our Services</h1>
       <div class="services-container">
+        <h2>Our Services</h2>
         <p class="services-descrtiption">
           Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
           Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
           lacinia odio sem nec elit.Fusce dapibus, tellus ac cursus commodo,
           tortor mauris condimentum nibh.
         </p>
-        <div class="row">
-          <div class="service-block">
-            <img class="icon-circle1" src="assets/Ellipse.png" alt="whatever" />
-            <img class="icon-pen" src="assets/pen.png" alt="whatever" />
-            <div class="text-block1">
-              <h4>Custom Design</h4>
-              <p class="small-text">
-                Nulla vitae elit libero, a pharetra augue. Donec ullamcorper
-                nulla non metus auctor fringilla. Nulla vitae elit libero, a
-                pharetra augue. Donec ullamcorper nulla non metus auctor
-                fringilla. Nulla vitae elit libero, a pharetra augue. Donec
-                ullamcorper nulla non metus auctor fringilla. Nulla vitae elit
-                libero, a pharetra augue. Donec ullamcorper nulla non metus
-                auctor fringilla.
-              </p>
-            </div>
-          </div>
-          <div class="service-block">
-            <img class="icon-circle2" src="assets/Ellipse.png" alt="whatever" />
-            <img class="icon-bulb" src="assets/bulb.png" alt="whatever" />
-            <div class="text-block2">
-              <h4>Inovative Ideas</h4>
-              <p class="small-text">
-                Nulla vitae elit libero, a pharetra augue. Donec ullamcorper
-                nulla non metus auctor fringilla. Nulla vitae elit libero, a
-                pharetra augue. Donec ullamcorper nulla non metus auctor
-                fringilla. Nulla vitae elit libero, a pharetra augue. Donec
-                ullamcorper nulla non metus auctor fringilla. Nulla vitae elit
-                libero, a pharetra augue. Donec ullamcorper nulla non metus
-                auctor fringilla.
-              </p>
-            </div>
-          </div>
-          <div class="service-block">
-            <img class="icon-circle3" src="assets/Ellipse.png" alt="whatever" />
-            <img class="icon-heart" src="assets/heart.png" alt="whatever" />
-            <div class="text-block3">
-              <h4>Love Is The Answer</h4>
-              <div class="ellipsis">
+        <div class="service-table">
+          <div class="row">
+            <div class="service-block">
+              <img class="icon-circle1" src="assets/Ellipse.png" alt="whatever" />
+              <img class="icon-pen" src="assets/pen.png" alt="whatever" />
+              <div class="text-block1">
+                <h4>Custom Design</h4>
                 <p class="small-text">
                   Nulla vitae elit libero, a pharetra augue. Donec ullamcorper
                   nulla non metus auctor fringilla. Nulla vitae elit libero, a
@@ -117,62 +124,97 @@
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="row second">
-          <div class="service-block">
-            <img class="icon-circle4" src="assets/Ellipse.png" alt="whatever" />
-            <img class="icon-phone" src="assets/phone.png" alt="whatever" />
-            <div class="text-block4">
-              <h4>Responsive Layout</h4>
-              <p class="small-text">
-                Nulla vitae elit libero, a pharetra augue. Donec ullamcorper
-                nulla non metus auctor fringilla. Nulla vitae elit libero, a
-                pharetra augue. Donec ullamcorper nulla non metus auctor
-                fringilla. Nulla vitae elit libero, a pharetra augue. Donec
-                ullamcorper nulla non metus auctor fringilla. Nulla vitae elit
-                libero, a pharetra augue. Donec ullamcorper nulla non metus
-                auctor fringilla.
-              </p>
+            <div class="service-block">
+              <img class="icon-circle2" src="assets/Ellipse.png" alt="whatever" />
+              <img class="icon-bulb" src="assets/bulb.png" alt="whatever" />
+              <div class="text-block2">
+                <h4>Inovative Ideas</h4>
+                <p class="small-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec ullamcorper
+                  nulla non metus auctor fringilla. Nulla vitae elit libero, a
+                  pharetra augue. Donec ullamcorper nulla non metus auctor
+                  fringilla. Nulla vitae elit libero, a pharetra augue. Donec
+                  ullamcorper nulla non metus auctor fringilla. Nulla vitae elit
+                  libero, a pharetra augue. Donec ullamcorper nulla non metus
+                  auctor fringilla.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="service-block">
-            <img class="icon-circle5" src="assets/Ellipse.png" alt="whatever" />
-            <img class="icon-bubble" src="assets/bubble.png" alt="whatever" />
-            <div class="text-block5">
-              <h4>24 / 7 Support</h4>
-              <p class="small-text">
-                Nulla vitae elit libero, a pharetra augue. Donec ullamcorper
-                nulla non metus auctor fringilla. Nulla vitae elit libero, a
-                pharetra augue. Donec ullamcorper nulla non metus auctor
-                fringilla. Nulla vitae elit libero, a pharetra augue. Donec
-                ullamcorper nulla non metus auctor fringilla. Nulla vitae elit
-                libero, a pharetra augue. Donec ullamcorper nulla non metus
-                auctor fringilla.
-              </p>
-            </div>
-          </div>
-          <div class="service-block">
-            <img class="icon-circle6" src="assets/Ellipse.png" alt="whatever" />
-            <img class="icon-star" src="assets/star.png" alt="whatever" />
-            <div class="text-block6">
-              <h4>Feel Like A Star</h4>
-              <div class="ellipsis">
-                <div>
+            <div class="service-block">
+              <img class="icon-circle3" src="assets/Ellipse.png" alt="whatever" />
+              <img class="icon-heart" src="assets/heart.png" alt="whatever" />
+              <div class="text-block3">
+                <h4>Love Is The Answer</h4>
+                <div class="ellipsis">
                   <p class="small-text">
                     Nulla vitae elit libero, a pharetra augue. Donec ullamcorper
                     nulla non metus auctor fringilla. Nulla vitae elit libero, a
                     pharetra augue. Donec ullamcorper nulla non metus auctor
                     fringilla. Nulla vitae elit libero, a pharetra augue. Donec
-                    ullamcorper nulla non metus auctor fringilla. Nulla vitae
-                    elit libero, a pharetra augue. Donec ullamcorper nulla non
-                    metus auctor fringilla.
+                    ullamcorper nulla non metus auctor fringilla. Nulla vitae elit
+                    libero, a pharetra augue. Donec ullamcorper nulla non metus
+                    auctor fringilla.
                   </p>
                 </div>
               </div>
             </div>
           </div>
+          <div class="row second">
+            <div class="service-block">
+              <img class="icon-circle4" src="assets/Ellipse.png" alt="whatever" />
+              <img class="icon-phone" src="assets/phone.png" alt="whatever" />
+              <div class="text-block4">
+                <h4>Responsive Layout</h4>
+                <p class="small-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec ullamcorper
+                  nulla non metus auctor fringilla. Nulla vitae elit libero, a
+                  pharetra augue. Donec ullamcorper nulla non metus auctor
+                  fringilla. Nulla vitae elit libero, a pharetra augue. Donec
+                  ullamcorper nulla non metus auctor fringilla. Nulla vitae elit
+                  libero, a pharetra augue. Donec ullamcorper nulla non metus
+                  auctor fringilla.
+                </p>
+              </div>
+            </div>
+            <div class="service-block">
+              <img class="icon-circle5" src="assets/Ellipse.png" alt="whatever" />
+              <img class="icon-bubble" src="assets/bubble.png" alt="whatever" />
+              <div class="text-block5">
+                <h4>24 / 7 Support</h4>
+                <p class="small-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec ullamcorper
+                  nulla non metus auctor fringilla. Nulla vitae elit libero, a
+                  pharetra augue. Donec ullamcorper nulla non metus auctor
+                  fringilla. Nulla vitae elit libero, a pharetra augue. Donec
+                  ullamcorper nulla non metus auctor fringilla. Nulla vitae elit
+                  libero, a pharetra augue. Donec ullamcorper nulla non metus
+                  auctor fringilla.
+                </p>
+              </div>
+            </div>
+            <div class="service-block">
+              <img class="icon-circle6" src="assets/Ellipse.png" alt="whatever" />
+              <img class="icon-star" src="assets/star.png" alt="whatever" />
+              <div class="text-block6">
+                <h4>Feel Like A Star</h4>
+                <div class="ellipsis">
+                  <div>
+                    <p class="small-text">
+                      Nulla vitae elit libero, a pharetra augue. Donec ullamcorper
+                      nulla non metus auctor fringilla. Nulla vitae elit libero, a
+                      pharetra augue. Donec ullamcorper nulla non metus auctor
+                      fringilla. Nulla vitae elit libero, a pharetra augue. Donec
+                      ullamcorper nulla non metus auctor fringilla. Nulla vitae
+                      elit libero, a pharetra augue. Donec ullamcorper nulla non
+                      metus auctor fringilla.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
       </div>
       <img class="services-bottom" src="assets/BgBottom.png" alt="whatever" />
     </div>
@@ -189,43 +231,119 @@
           </p>
           <div class="image-bar">
             <div class="button-bar">
-              <button class="picture-select interaction links" id="all" onclick="portoFun(id)">All</button>
-              <button class="picture-select interaction links" id="w-design" onclick="portoFun(id)">Web Design</button>
-              <button class="picture-select interaction links" id="g-design" onclick="portoFun(id)">Grapic Design</button>
-              <button class="picture-select interaction links" id="artwork" onclick="portoFun(id)">Artwork</button>
+              <button
+                class="picture-select interaction links"
+                id="all"
+                onclick="portoFun(id)"
+              >
+                All
+              </button>
+              <button
+                class="picture-select interaction links"
+                id="w-design"
+                onclick="portoFun(id)"
+              >
+                Web Design
+              </button>
+              <button
+                class="picture-select interaction links"
+                id="g-design"
+                onclick="portoFun(id)"
+              >
+                Grapic Design
+              </button>
+              <button
+                class="picture-select interaction links"
+                id="artwork"
+                onclick="portoFun(id)"
+              >
+                Artwork
+              </button>
             </div>
             <div class="image-container" id="image-container">
-              <img class="img-size first" id="0" src="assets/Project.png" alt="pic" onclick="emphasize(id)"/>
               <img
-                class="img-size second" id="1"
+                class="img-size first"
+                id="0"
+                src="assets/Project.png"
+                alt="pic"
+                onclick="emphasize(id)"
+              />
+              <img
+                class="img-size second"
+                id="1"
                 src="assets/Project4.png"
-                alt="pic" onclick="emphasize(id)"
+                alt="pic"
+                onclick="emphasize(id)"
               />
-              <img class="img-size third" id="2" src="assets/Layer9.png" alt="pic" onclick="emphasize(id)"/>
               <img
-                class="img-size fourth" id="3"
+                class="img-size third"
+                id="2"
+                src="assets/Layer9.png"
+                alt="pic"
+                onclick="emphasize(id)"
+              />
+              <img
+                class="img-size fourth"
+                id="3"
                 src="assets/Project8.png"
-                alt="pic" onclick="emphasize(id)"
+                alt="pic"
+                onclick="emphasize(id)"
               />
-              <img class="img-size fifth" id="4" src="assets/Project2.png" alt="pic" onclick="emphasize(id)"/>
-              <img class="img-size sixth" id="5" src="assets/Project5.png" alt="pic" onclick="emphasize(id)"/>
               <img
-                class="img-size seventh" id="6"
+                class="img-size fifth"
+                id="4"
+                src="assets/Project2.png"
+                alt="pic"
+                onclick="emphasize(id)"
+              />
+              <img
+                class="img-size sixth"
+                id="5"
+                src="assets/Project5.png"
+                alt="pic"
+                onclick="emphasize(id)"
+              />
+              <img
+                class="img-size seventh"
+                id="6"
                 src="assets/Layer11.png"
-                alt="pic" onclick="emphasize(id)"
+                alt="pic"
+                onclick="emphasize(id)"
               />
-              <img class="img-size eigth" id="7" src="assets/Layer8.png" alt="pic" onclick="emphasize(id)"/>
-              <img class="img-size ninth" id="8" src="assets/Project3.png" alt="pic" onclick="emphasize(id)"/>
-              <img class="img-size tenth" id="9" src="assets/Project6.png" alt="pic" onclick="emphasize(id)"/>
               <img
-                class="img-size eleventh" id="10"
+                class="img-size eigth"
+                id="7"
+                src="assets/Layer8.png"
+                alt="pic"
+                onclick="emphasize(id)"
+              />
+              <img
+                class="img-size ninth"
+                id="8"
+                src="assets/Project3.png"
+                alt="pic"
+                onclick="emphasize(id)"
+              />
+              <img
+                class="img-size tenth"
+                id="9"
+                src="assets/Project6.png"
+                alt="pic"
+                onclick="emphasize(id)"
+              />
+              <img
+                class="img-size eleventh"
+                id="10"
                 src="assets/Project7.png"
-                alt="pic" onclick="emphasize(id)"
+                alt="pic"
+                onclick="emphasize(id)"
               />
               <img
-                class="img-size twelfth" id="11"
+                class="img-size twelfth"
+                id="11"
                 src="assets/Project9.png"
-                alt="pic" onclick="emphasize(id)"
+                alt="pic"
+                onclick="emphasize(id)"
               />
             </div>
           </div>
@@ -352,17 +470,13 @@
           </div>
         </div>
       </div>
-      <img
-        class="about-us-bottom"
-        src="assets/aboutbottom.png"
-        alt="bottom-line"
-      />
     </div>
     <div id="contact">
       <form id="form">
         <img class="form" src="assets/form.png" alt="form background" />
+
         <div class="get-quote form-text">
-          <h1 class="quote-header">Get a Quote</h1>
+          <h3 class="quote-header">Get a Quote</h3>
           <p class="quote-description">
             Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
             Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
@@ -372,8 +486,7 @@
         </div>
         <div class="form-input">
           <div id="myModal" class="modal">
-            <div class="modal-content" id="modal-content">
-            </div>
+            <div class="modal-content" id="modal-content"></div>
           </div>
           <input
             class="text-field"
@@ -387,17 +500,23 @@
             placeholder="Email (Required)"
             id="email"
           />
-          <input class="text-field" type="text" placeholder="Subject" id="subject"/>
+          <input
+            class="text-field"
+            type="text"
+            placeholder="Subject"
+            id="subject"
+          />
           <input
             class="text-field big"
             type="text"
-            placeholder="Describe your project in detail..." id="description"
+            placeholder="Describe your project in detail..."
+            id="description"
           />
         </div>
         <input
           class="submit interaction"
           type="submit"
-          value="Submit"
+          value="SUBMIT"
           onclick="onTheGo()"
         />
         <div class="contact-information">
@@ -435,13 +554,14 @@
             </div>
           </div>
         </div>
-        <img
-          class="form-bottom"
-          src="assets/formbottom.png"
-          alt="form bottom"
-        />
+
       </form>
     </div>
+    <img
+    class="form-bottom"
+    src="assets/formbottom.png"
+    alt="form bottom"
+  />
     <footer>
       <div class="last-line">
         <p class="copyright">© Copyright 2013 - by PSDchat.com</p>

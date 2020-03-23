@@ -38,14 +38,15 @@ function activeLink(id) {
 }
 
 function carouselRight() {
+  const WIDTH = document.getElementById("slide1").getBoundingClientRect().width;
   const left = document.getElementById("main").getBoundingClientRect().left;
   let cat = document.getElementById("cat");
   let catRect = cat.getBoundingClientRect();
-  const lw = left + 1020;
+  const lw = left + WIDTH;
   if (catRect.left === left && cat.width === 0) {
-    cat.style.width = "1020px";
+    cat.style.width = `${WIDTH}px`;
   }
-   if (catRect.left === left && catRect.width === 1020) {
+   if (catRect.left === left && catRect.width === WIDTH) {
     cat.style.left = `${lw}px`;
     cat.style.width = "0";
     cat.style.transition = "all 0.6s";
@@ -53,15 +54,16 @@ function carouselRight() {
   if (catRect.left.toFixed(3) === lw.toFixed(3) && catRect.width === 0) {
     cat.style.transition = "width 0.6s";
     cat.style.left = `${left}px`;
-    cat.style.width = "1020px";
+    cat.style.width = `${WIDTH}px`;
   }
 }
 
 function carouselLeftPrep() {
+  const WIDTH = document.getElementById("slide1").getBoundingClientRect().width;
   const left = document.getElementById("main").getBoundingClientRect().left;
   let cat = document.getElementById("cat");
   let catRect = cat.getBoundingClientRect();
-  const lw = left + 1020;
+  const lw = left + WIDTH;
   if (catRect.left === left && cat.width === 0) {
     cat.style.left = `${lw}px`;
     cat.style.transition = "none";
@@ -69,23 +71,25 @@ function carouselLeftPrep() {
 }
 
 function carouselLeft() {
+  const WIDTH = document.getElementById("slide1").getBoundingClientRect().width;
   const left = document.getElementById("main").getBoundingClientRect().left;
   let cat = document.getElementById("cat");
   let catRect = cat.getBoundingClientRect();
-  const lw = left + 1020;
+  const lw = left + WIDTH;
   if (catRect.left.toFixed(3) === lw.toFixed(3) && catRect.width === 0) {
     cat.style.transition = "all 0.6s";
     cat.style.left = `${left}px`;
-    cat.style.width = "1020px";
+    cat.style.width = `${WIDTH}px`;
   }
-   if (catRect.left === left && catRect.width === 1020) {
+   if (catRect.left === left && catRect.width === WIDTH) {
     cat.style.width = "0";
    }
   setTimeout(() => {
+    const WIDTH = document.getElementById("slide1").getBoundingClientRect().width;
     const left = document.getElementById("main").getBoundingClientRect().left;
     let cat = document.getElementById("cat");
     let catRect = cat.getBoundingClientRect();
-    const lw = left + 1020;
+    const lw = left + WIDTH;
     if (catRect.left === left && cat.width === 0) {
       cat.style.left = `${lw}px`;
       cat.style.transition = "none";
