@@ -9,11 +9,13 @@
     <title>Singolo</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="main" id="main">
+  <body class="main" id="main" onresize="getLeft()">
     <header id="header">
       <img class="header-back" src="assets/Header.png" alt="whatever" />
+      <img class="header-burger-icon" src="assets/Burger-menu-icon.png" alt="w" id="nav-icon" onclick="toggleNav()"/>
       <p class="logo1 interaction">SINGOLO<span class="red star">*</span></p>
-      <nav>
+      <img class="header-bottom" src="assets/HeaderBottom.png" alt="whatever" />
+      <nav class="hidden" id="nav-buttons" onclick="toggleNav()">
         <a class="links" href="#home" id="a-home" onclick="activeLink(id)"
           ><div class="interaction">HOME</div></a
         >
@@ -42,7 +44,9 @@
           ><div class="interaction">CONTACT</div></a
         >
       </nav>
-      <img class="header-bottom" src="assets/HeaderBottom.png" alt="whatever" />
+
+
+      <img class="header-mobile hidden" src="assets/Header.png" alt="sdf" id="nav-mobile" />
     </header>
     <div class="slider-group slider slide1" id="home">
       <div class="v-phone">

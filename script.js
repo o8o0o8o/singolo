@@ -171,3 +171,14 @@ function onTheGo() {
     };
   }
 }
+
+function toggleNav() {
+  const HEIGHT = document.documentElement.clientHeight;
+  let icon = document.getElementById("nav-icon");
+  icon.classList.toggle("turn");
+  let nav = document.getElementById("nav-mobile");
+  nav.classList.toggle("hidden");
+  nav.style.height = `${HEIGHT}px`;
+  let buttons = document.getElementById("nav-buttons");
+  buttons.classList.toggle("hidden");
+}
