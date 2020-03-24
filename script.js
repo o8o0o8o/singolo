@@ -105,9 +105,8 @@ function response() {
   const WIDTH = document.getElementById("slide1").getBoundingClientRect().width;
   let buttons = document.getElementById("nav-buttons");
   if (WIDTH > 767) {
-
     buttons.classList.toggle("hidden");
-  }console.log(WIDTH);
+  }
 }
 
 function phoneScreen(id) {
@@ -179,6 +178,8 @@ function onTheGo() {
 }
 
 function toggleNav() {
+  const WIDTH = document.getElementById("slide1").getBoundingClientRect().width;
+  if (WIDTH < 768) {
   const HEIGHT = document.documentElement.clientHeight;
   let icon = document.getElementById("nav-icon");
   icon.classList.toggle("turn");
@@ -187,4 +188,5 @@ function toggleNav() {
   nav.style.height = `${HEIGHT}px`;
   let buttons = document.getElementById("nav-buttons");
   buttons.classList.toggle("hidden");
+}
 }
