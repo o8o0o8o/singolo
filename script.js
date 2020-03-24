@@ -98,10 +98,16 @@ function carouselLeft() {
 
 }
 
-function getLeft() {
+function response() {
   const left = document.getElementById("main").getBoundingClientRect().left;
   let cat = document.getElementById("cat");
   cat.style.left = `${left}px`;
+  const WIDTH = document.getElementById("slide1").getBoundingClientRect().width;
+  let buttons = document.getElementById("nav-buttons");
+  if (WIDTH > 767) {
+
+    buttons.classList.toggle("hidden");
+  }console.log(WIDTH);
 }
 
 function phoneScreen(id) {
