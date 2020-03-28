@@ -151,27 +151,27 @@ nav {
 
 .v-phone {
   position: relative;
-  left: -249px;
+  left: -251px;
   top: -8px;
 }
 
 .h-phone {
   position: relative;
-  left: -249px;
+  left: -251px;
   top: -8px;
 }
 
 .arrow-left {
   position: absolute;
   top: 384px;
-  left: 484px;
+  left: 290px;
   z-index: 1;
 }
 
 .arrow-right {
   position: absolute;
   top: 384px;
-  left: 1405px;
+  left: 1212px;
   z-index: 1;
 }
 
@@ -208,8 +208,8 @@ h1 {
   font-family: "LatoBold", sans-serif;
   position: absolute;
   font-weight: 500;
-  top: 745px;
-  left: 480px;
+  top: 746px;
+  left: 288px;
   font-size: 18px;
   color: #666d89;
   width: 938px;
@@ -536,8 +536,8 @@ h1 {
 
 .about-us-content {
   position: absolute;
-  top: 478px;
-  left: 482px;
+  top: 480px;
+  left: 289px;
   width: 960px;
 }
 
@@ -692,8 +692,8 @@ h1 {
 
 .get-quote {
   position: absolute;
-  top: 2840px;
-  left: 480px;
+  top: 2839px;
+  left: 289px;
   width: 960px;
   margin-bottom: 0px;
 }
@@ -726,7 +726,7 @@ h1 {
 .form-input {
   position: absolute;
   top: 3024px;
-  left: 480px;
+  left: 289px;
   height: 363px;
   display: flex;
   flex-direction: column;
@@ -778,7 +778,7 @@ h1 {
 .contact-information {
   position: absolute;
   top: 2996px;
-  left: 1120px;
+  left: 929px;
   width: 310px;
   font-family: "LatoBlack", sans-serif;
   color: #f0d8d9;
