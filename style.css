@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "LatoRegular";
   src: url("./assets//fonts/Lato-Regular.ttf") format("ttf");
@@ -105,6 +109,7 @@ nav {
   left: 360px;
 }
 
+
 .horizontal-phone {
   position: absolute;
   transform: rotate(90deg);
@@ -144,17 +149,29 @@ nav {
   object-position: 50.4% 30.2%;
 }
 
+.v-phone {
+  position: relative;
+  left: -249px;
+  top: -8px;
+}
+
+.h-phone {
+  position: relative;
+  left: -249px;
+  top: -8px;
+}
+
 .arrow-left {
   position: absolute;
   top: 384px;
-  left: 291px;
+  left: 484px;
   z-index: 1;
 }
 
 .arrow-right {
   position: absolute;
   top: 384px;
-  left: 1213px;
+  left: 1405px;
   z-index: 1;
 }
 
@@ -179,7 +196,7 @@ h1 {
   font-family: "LatoBold", sans-serif;
   position: absolute;
   font-weight: 900;
-  top: 739px;
+  top: 639px;
   left: 289px;
   font-size: 30px;
   color: #666d89;
@@ -191,8 +208,8 @@ h1 {
   font-family: "LatoBold", sans-serif;
   position: absolute;
   font-weight: 500;
-  top: 800px;
-  left: 290px;
+  top: 745px;
+  left: 480px;
   font-size: 18px;
   color: #666d89;
   width: 938px;
@@ -205,85 +222,87 @@ h1 {
 
 .icon-circle1 {
   position: absolute;
-  top: 122px;
+  top: 176px;
+  left: 1px;
 }
 
 .icon-circle2 {
   position: absolute;
-  top: 122px;
-  left: 318px;
+  top: 176px;
+  left: 320px;
 }
 
 .icon-circle3 {
   position: absolute;
-  top: 122px;
-  left: 638px;
+  top: 176px;
+  left: 640px;
 }
 
 .icon-circle4 {
   position: absolute;
-  top: 245px;
+  top: 299px;
+  left: 1px;
 }
 
 .icon-circle5 {
   position: absolute;
-  top: 245px;
-  left: 318px;
+  top: 299px;
+  left: 320px;
 }
 
 .icon-circle6 {
   position: absolute;
-  top: 245px;
-  left: 638px;
+  top: 299px;
+  left: 640px;
 }
 
 .icon-pen {
   position: absolute;
-  top: 135px;
+  top: 190px;
   left: 15px;
 }
 
 .icon-bulb {
   position: absolute;
-  top: 135px;
-  left: 336px;
+  top: 189px;
+  left: 338px;
 }
 
 .icon-heart {
   position: absolute;
-  top: 137px;
-  left: 651px;
+  top: 191px;
+  left: 653px;
 }
 
 .icon-phone {
   position: absolute;
-  top: 258px;
-  left: 17px;
+  top: 312px;
+  left: 19px;
 }
 
 .icon-bubble {
   position: absolute;
-  top: 261px;
-  left: 332px;
+  top: 315px;
+  left: 334px;
 }
 
 .icon-star {
   position: absolute;
-  top: 259px;
-  left: 651px;
+  top: 313px;
+  left: 653px;
 }
 
 .text-block1 {
   position: absolute;
-  top: 93px;
-  left: 79px;
+  top: 146px;
+  left: 80px;
   width: 224px;
   letter-spacing: 0.1px;
 }
 
 .text-block2 {
   position: absolute;
-  top: 93px;
+  top: 146px;
   left: 399px;
   width: 224px;
   letter-spacing: 0.4px;
@@ -291,7 +310,7 @@ h1 {
 
 .text-block3 {
   position: absolute;
-  top: 93px;
+  top: 146px;
   left: 720px;
   width: 224px;
   letter-spacing: 0.2px;
@@ -299,15 +318,15 @@ h1 {
 
 .text-block4 {
   position: absolute;
-  top: 216px;
-  left: 79px;
+  top: 269px;
+  left: 80px;
   width: 224px;
   letter-spacing: 0.2px;
 }
 
 .text-block5 {
   position: absolute;
-  top: 216px;
+  top: 269px;
   left: 399px;
   width: 224px;
   letter-spacing: 0.1px;
@@ -315,7 +334,7 @@ h1 {
 
 .text-block6 {
   position: absolute;
-  top: 216px;
+  top: 269px;
   left: 720px;
   width: 224px;
   letter-spacing: 0.3px;
@@ -423,7 +442,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(4, 240px);
   overflow: hidden;
-  height: 630px;
+  height: 624px;
 }
 
 .img-size {
@@ -499,6 +518,9 @@ h1 {
 .about-us-back {
   margin-bottom: -15px;
   position: static;
+  height: 732px;
+  width: 1020px;
+  margin-bottom: -13px;
 }
 
 .about-us-header {
@@ -514,8 +536,8 @@ h1 {
 
 .about-us-content {
   position: absolute;
-  top: 479.5px;
-  left: 290px;
+  top: 478px;
+  left: 482px;
   width: 960px;
 }
 
@@ -665,21 +687,21 @@ h1 {
   margin-top: -5px;
   height: 653px;
   width: 1020px;
-  margin-bottom: -34px;
+  margin-bottom: -51px;
 }
 
 .get-quote {
   position: absolute;
-  top: 2798px;
-  left: 289px;
+  top: 2840px;
+  left: 480px;
   width: 960px;
   margin-bottom: 0px;
 }
 
 .quote-description {
   position: absolute;
-  top: 100px;
-  left: 0;
+  top: 61px;
+  left: 1px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 300;
@@ -704,19 +726,14 @@ h1 {
 .form-input {
   position: absolute;
   top: 3024px;
-  left: 289px;
+  left: 480px;
   height: 363px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.submit {
-  position: relative;
-  top: -30px;
-  left: 40px;
-  width: 616px;
-}
+
 
 .text-field {
   width: 606px;
@@ -746,16 +763,22 @@ h1 {
 }
 
 .submit {
-  background-color: #d6564f;
+  position: relative;
+  left: 40px;
+  width: 136px;
+  height: 38px;
+  background-color: #FBC65F;
   border: 1px #f0d8d9 solid;
   border-radius: 6px;
-  color: #f0d8d9;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #886A30;
 }
 
 .contact-information {
   position: absolute;
   top: 2996px;
-  left: 929px;
+  left: 1120px;
   width: 310px;
   font-family: "LatoBlack", sans-serif;
   color: #f0d8d9;
@@ -827,7 +850,7 @@ h1 {
 .last-line {
   position: absolute;
   top: 3478px;
-  left: 291px;
+  left: 480px;
   font-family: "Lato", sans-serif;
   color: #5e657e;
   letter-spacing: -0.1px;
@@ -1993,7 +2016,7 @@ a {
 
   }
 
-  @media (min-width: 375px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     .main {
       width: 375px;
       margin-left: auto;
@@ -2041,7 +2064,6 @@ a {
       left: 0px;
       top: -220px;
       width: 278px;
-
     }
 
     .logo1 {
@@ -2081,6 +2103,7 @@ a {
     }
 
     .header-bottom {
+      position: relative;
       height: 10px;
       width: 375px;
     }
