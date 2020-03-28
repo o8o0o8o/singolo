@@ -531,7 +531,7 @@ h1 {
   position: static;
   height: 732px;
   width: 1020px;
-  margin-bottom: -13px;
+  margin-bottom: -709px;
 }
 
 .about-us-header {
@@ -546,9 +546,9 @@ h1 {
 }
 
 .about-us-content {
-  position: absolute;
-  top: 480px;
-  left: 289px;
+  position: relative;
+  top: -1618px;
+  left: 41px;
   width: 960px;
 }
 
@@ -698,21 +698,21 @@ h1 {
   margin-top: -5px;
   height: 653px;
   width: 1020px;
-  margin-bottom: -51px;
+  margin-bottom: -895px;
 }
 
 .get-quote {
-  position: absolute;
-  top: 2839px;
-  left: 289px;
+  position: relative;
+  top: 270px;
+  left: 41px;
   width: 960px;
   margin-bottom: 0px;
 }
 
 .quote-description {
-  position: absolute;
-  top: 61px;
-  left: 1px;
+  position: relative;
+  top: -11px;
+  left: -1px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 300;
@@ -735,16 +735,14 @@ h1 {
 }
 
 .form-input {
-  position: absolute;
-  top: 3024px;
-  left: 289px;
+  position: relative;
+  top: 258px;
+  left: 40px;
   height: 363px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
-
 
 .text-field {
   width: 606px;
@@ -775,6 +773,7 @@ h1 {
 
 .submit {
   position: relative;
+  top: 265px;
   left: 40px;
   width: 136px;
   height: 38px;
@@ -787,9 +786,9 @@ h1 {
 }
 
 .contact-information {
-  position: absolute;
-  top: 2996px;
-  left: 929px;
+  position: relative;
+  top: -171px;
+  left: 679px;
   width: 310px;
   font-family: "LatoBlack", sans-serif;
   color: #f0d8d9;
@@ -801,15 +800,15 @@ h1 {
 }
 
 .contact-description {
-  position: absolute;
-  top: 42px;
+  position: relative;
+  top: -18px;
   font-size: 12px;
   line-height: 22px;
 }
 
 .contacts-us {
   position: relative;
-  top: 91px;
+  top: -6px;
   left: 3px;
   width: 150px;
   height: 59px;
@@ -856,25 +855,28 @@ h1 {
 .form-bottom {
   width: 1020px;
   height: 9px;
+  margin-bottom: -49px;
 }
 
 .last-line {
-  position: absolute;
-  top: 3478px;
-  left: 289px;
+  position: relative;
+  top: 51px;
+  left: 41px;
   font-family: "Lato", sans-serif;
   color: #5e657e;
   letter-spacing: -0.1px;
 }
 
 .footer {
-  margin-top: -9px;
+  margin-top: 4.5px;
   margin-bottom: -12px;
-  height: 78px;
+  height: 79px;
   width: 1020px;
 }
 
 .copyright {
+  position: relative;
+  top: 11px;
   font-size: 12px;
 }
 
