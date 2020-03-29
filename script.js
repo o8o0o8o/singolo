@@ -46,7 +46,7 @@ function carouselRight() {
   if (catRect.left === left && cat.width === 0) {
     cat.style.width = `${WIDTH}px`;
   }
-   if (catRect.left === left && catRect.width === WIDTH) {
+  if (catRect.left === left && catRect.width === WIDTH) {
     cat.style.left = `${lw}px`;
     cat.style.width = "0";
     cat.style.transition = "all 0.6s";
@@ -81,11 +81,12 @@ function carouselLeft() {
     cat.style.left = `${left}px`;
     cat.style.width = `${WIDTH}px`;
   }
-   if (catRect.left === left && catRect.width === WIDTH) {
+  if (catRect.left === left && catRect.width === WIDTH) {
     cat.style.width = "0";
-   }
+  }
   setTimeout(() => {
-    const WIDTH = document.getElementById("slide1").getBoundingClientRect().width;
+    const WIDTH = document.getElementById("slide1").getBoundingClientRect()
+      .width;
     const left = document.getElementById("main").getBoundingClientRect().left;
     let cat = document.getElementById("cat");
     let catRect = cat.getBoundingClientRect();
@@ -95,7 +96,6 @@ function carouselLeft() {
       cat.style.transition = "none";
     }
   }, 0);
-
 }
 
 main.onkeydown = main.onkeyup = main.onkeypress = response;
@@ -170,7 +170,7 @@ function onTheGo() {
       modal.style.display = "none";
       document.getElementById("email").value = "";
       document.getElementById("name").value = "";
-      document.getElementById("description").value =  "";
+      document.getElementById("description").value = "";
       document.getElementById("subject").value = "";
     };
     window.onclick = function(event) {
@@ -184,13 +184,13 @@ function onTheGo() {
 function toggleNav() {
   const WIDTH = document.getElementById("slide1").getBoundingClientRect().width;
   if (WIDTH < 768) {
-  const HEIGHT = document.documentElement.clientHeight;
-  let icon = document.getElementById("nav-icon");
-  icon.classList.toggle("turn");
-  let nav = document.getElementById("nav-mobile");
-  nav.classList.toggle("hidden");
-  nav.style.height = `${HEIGHT}px`;
-  let buttons = document.getElementById("nav-buttons");
-  buttons.classList.toggle("hidden");
-}
+    const HEIGHT = document.documentElement.clientHeight;
+    let icon = document.getElementById("nav-icon");
+    icon.classList.toggle("turn");
+    let nav = document.getElementById("nav-mobile");
+    nav.classList.toggle("hidden");
+    nav.style.height = `${HEIGHT}px`;
+    let buttons = document.getElementById("nav-buttons");
+    buttons.classList.toggle("hidden");
+  }
 }
