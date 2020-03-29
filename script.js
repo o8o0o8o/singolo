@@ -98,14 +98,18 @@ function carouselLeft() {
 
 }
 
+main.onkeydown = main.onkeyup = main.onkeypress = response;
+
 function response() {
   const left = document.getElementById("main").getBoundingClientRect().left;
   let cat = document.getElementById("cat");
   cat.style.left = `${left}px`;
   const WIDTH = document.getElementById("slide1").getBoundingClientRect().width;
   let buttons = document.getElementById("nav-buttons");
+  let navIcons = document.getElementById("nav-icon");
   if (WIDTH > 767) {
     buttons.classList.toggle("hidden");
+    //navIcons.classList.toggle("hidden");
   }
 }
 

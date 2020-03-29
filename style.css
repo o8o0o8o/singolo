@@ -2059,14 +2059,14 @@ html {
 
     .header-back {
       width: 375px;
-      height: 94px;
+      height: 69px;
       margin-bottom: -45px;
     }
 
     .header-burger-icon {
       position: relative;
-      top: -20px;
-      left: 20px;
+      top: -5px;
+      left: -357px;
       transform: rotate(90deg);
       z-index: 1;
     }
@@ -2095,12 +2095,12 @@ html {
     }
 
     .logo1 {
-      position: absolute;
-      top: 5px;
-      left: 139px;
+      position: relative;
+      top: -52px;
+      left: 147px;
       font-family: "LatoBold", sans-serif;
       font-weight: 500;
-      font-size: 25px;
+      font-size: 20px;
       color: white;
       width: fit-content;
       letter-spacing: -0.8px;
@@ -2131,9 +2131,9 @@ html {
     }
 
     .header-bottom {
-      position: relative;
       height: 10px;
       width: 375px;
+      margin-bottom: -19px;
     }
 
     .interaction:hover {
@@ -2148,22 +2148,22 @@ html {
 
     .v-phone {
       position: relative;
-      left: -205px;
-      top: 200px;
+      left: -211px;
+      top: 33px;
       transform: scale(0.37);
     }
 
     .h-phone {
       position: relative;
-      left: -205px;
-      top: 200px;
+      left: -212px;
+      top: 33px;
       transform: scale(0.37);
     }
 
     .slider-back {
-      height: 451.76px;
+      height: 290px;
       width: 375px;
-      margin-top: 94px;
+      margin-top: px;
       margin-bottom: -45px;
     }
 
@@ -2214,15 +2214,15 @@ html {
 
     .arrow-left {
       position: relative;
-      top: -200px;
-      left: 13px;
+      top: -80px;
+      left: 10px;
       z-index: 1;
     }
 
     .arrow-right {
       position: relative;
-      top: -200px;
-      left: 327px;
+      top: -80px;
+      left: 330px;
       z-index: 1;
     }
 
@@ -2231,16 +2231,17 @@ html {
     }
 
     .slider-bottom {
-      margin-top: -5px;
+      margin-top: 0px;
       height: 7px;
       width: 375px;
+      margin-bottom: 3px;
     }
 
     .services-back {
       width: 375px;
       height: 1032px;
       margin-top: -6.5px;
-      margin-bottom: -310px;
+      margin-bottom: -328px;
     }
 
     h2 {
@@ -2255,12 +2256,18 @@ html {
       word-spacing: -5px;
     }
 
+    .services-descrtiption {
+      position: relative;
+      top: -5px;
+      line-height: 31px;
+    }
+
     .services-container {
       font-family: "LatoBold", sans-serif;
       position: relative;
       font-weight: 500;
-      top: -730px;
-      left: 41px;
+      top: -702px;
+      left: 32px;
       font-size: 18px;
       color: #666d89;
       width: 314px;
@@ -2278,117 +2285,118 @@ html {
 
     .icon-circle1 {
       position: absolute;
-      top: 222px;
+      top: 246px;
+      left: -1px;
     }
 
     .icon-circle2 {
       position: absolute;
-      top: 572px;
-      left: 2px;
+      top: 605px;
+      left: 0px;
     }
 
     .icon-circle3 {
       position: absolute;
-      top: 461px;
-      left: 2px;
+      top: 486px;
+      left: 0px;
     }
 
     .icon-circle4 {
       position: absolute;
-      top: 345px;
+      top: 365px;
     }
 
     .icon-circle5 {
       position: absolute;
-      top: 685px;
-      left: 2px;
+      top: 726px;
+      left: 0px;
     }
 
     .icon-circle6 {
       position: absolute;
-      top: 798px;
-      left: 2px;
+      top: 844px;
+      left: 0px;
     }
 
     .icon-pen {
       position: absolute;
-      top: 235px;
-      left: 15px;
+      top: 260px;
+      left: 13px;
     }
 
     .icon-bulb {
       position: absolute;
-      top: 585px;
-      left: 18px;
+      top: 379px;
+      left: 17px;
     }
 
     .icon-heart {
       position: absolute;
-      top: 475px;
-      left: 14px;
+      top: 500px;
+      left: 12px;
     }
 
     .icon-phone {
       position: absolute;
-      top: 358px;
+      top: 619px;
       left: 17px;
     }
 
     .icon-bubble {
       position: absolute;
-      top: 700px;
-      left: 15px;
+      top: 741px;
+      left: 13px;
     }
 
     .icon-star {
       position: absolute;
-      top: 810px;
-      left: 13px;
+      top: 859px;
+      left: 12px;
     }
 
     .text-block1 {
       position: absolute;
-      top: 193px;
-      left: 79px;
+      top: 220px;
+      left: 80px;
       width: 224px;
       letter-spacing: 0.1px;
     }
 
     .text-block2 {
       position: absolute;
-      top: 543px;
-      left: 79px;
+      top: 339px;
+      left: 80px;
       width: 224px;
       letter-spacing: 0.4px;
     }
 
     .text-block3 {
       position: absolute;
-      top: 435px;
-      left: 79px;
+      top: 457px;
+      left: 80px;
       width: 224px;
       letter-spacing: 0.2px;
     }
 
     .text-block4 {
       position: absolute;
-      top: 316px;
-      left: 79px;
+      top: 577px;
+      left: 80px;
       width: 224px;
       letter-spacing: 0.2px;
     }
 
     .text-block5 {
       position: absolute;
-      top: 656px;
-      left: 79px;
+      top: 695px;
+      left: 80px;
       width: 224px;
       letter-spacing: 0.1px;
     }
 
     .text-block6 {
       position: absolute;
-      top: 775px;
+      top: 815px;
       left: 79px;
       width: 224px;
       letter-spacing: 0.3px;
@@ -2422,15 +2430,15 @@ html {
     .portfolio-back {
       margin-top: -3.5px;
       width: 375px;
-      height: 884px;
-      margin-bottom: -16px;
+      height: 845px;
+      margin-bottom: -720px;
     }
 
     .portfolio-container {
       position: relative;
-      top: -870px;
-      left: 40px;
-      width: 300px;
+      top: -125px;
+      left: 32px;
+      width: 315px;
       margin: 0px;
     }
 
@@ -2451,8 +2459,8 @@ html {
     }
 
     .portfolio-description {
-      position: absolute;
-      top: 62px;
+      position: relative;
+      top: 75px;
       left: -1px;
       font-weight: 400;
       letter-spacing: 0.5px;
@@ -2460,12 +2468,13 @@ html {
       font-size: 17px;
       font-family: "Lato", sans-serif;
       color: #5e657e;
+      line-height: 31px;
     }
 
     .button-bar {
-      position: absolute;
-      top: -20px;
-      left: 1px;
+      position: relative;
+      top: -21px;
+      left: -1px;
       display: flex;
       flex-direction: row;
       width: 288px;
@@ -2488,21 +2497,22 @@ html {
     }
 
     .image-bar {
-      position: absolute;
-      top: 200px;
+      position: relative;
+      top: 95px;
+      left: -1px;
     }
 
     .image-container {
       display: grid;
-      grid-template-columns: repeat(2, 160px);
+      grid-template-columns: repeat(2, 165px);
       overflow: hidden;
-      height: 600px;
+      height: 556px;
     }
 
     .img-size {
       width: 151px;
-      height: 128px;
-      margin: 21px 0 0 0;
+      height: 124px;
+      margin: 14px 0 0 0;
     }
 
     .first {
@@ -2567,6 +2577,7 @@ html {
 
     .portfolio-bottom {
       width: 375px;
+      margin-bottom: 2px;
     }
 
     .about-us {
@@ -2574,11 +2585,10 @@ html {
     }
 
     .about-us-back {
-      margin-bottom: -15px;
       position: static;
       height: 1754px;
       width: 375px;
-      margin-bottom: -1515px;
+      margin-bottom: -1598px;
     }
 
     .about-us-header {
@@ -2594,8 +2604,8 @@ html {
 
     .about-us-content {
       position: relative;
-      top: -1950px;
-      left: 39px;
+      top: -1778px;
+      left: 31px;
       width: 315px;
     }
 
@@ -2615,7 +2625,7 @@ html {
       position: relative;
       top: 1930px;
       width: 315px;
-      height: 1420px;
+      height: 1410px;
       left: -0.5px;
       display: flex;
       flex-direction: column;
@@ -2632,7 +2642,7 @@ html {
 
     .name {
       position: relative;
-      top: -7px;
+      top: 4px;
       left: -1px;
       letter-spacing: -1px;
       font-family: "LatoBold", sans-serif;
@@ -2643,7 +2653,7 @@ html {
 
     .person-description {
       position: relative;
-      top: -18px;
+      top: -15px;
       font-size: 12px;
       line-height: 22px;
       font-family: "Lato", sans-serif;
@@ -2658,7 +2668,7 @@ html {
 
     .social {
       position: relative;
-      top: -8px;
+      top: -15px;
       left: 0;
     }
 
@@ -2739,20 +2749,21 @@ html {
 
     .form {
       margin-top: -5px;
-      height: 969px;
+      height: 997px;
       width: 375px;
-      margin-bottom: -1050px;
+      margin-bottom: -1167px;
     }
 
     .form-bottom {
+      margin-top: 55px;
       width: 375px;
       height: 9px;
-      margin-bottom: -80px;
+      margin-bottom: -210px;
     }
 
     .get-quote {
       position: relative;
-      top: 60px;
+      top: 185px;
       left: 30px;
       width: 315px;
       margin-bottom: 0px;
@@ -2760,7 +2771,7 @@ html {
 
     .quote-description {
       position: relative;
-      top: 0;
+      top: -10px;
       left: 0;
       line-height: 30px;
       font-size: 18px;
@@ -2785,21 +2796,21 @@ html {
 
     .form-input {
       position: relative;
-      top: 20px;
+      top: 181px;
       left: 30px;
-      height: 309px;
+      height: 310px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
     }
 
     .text-field {
-      width: 315px;
-      height: 38px;
+      width: 306px;
+      height: 37px;
       border: none;
       border-radius: 4px;
       background-color: #d6564f;
-      padding-left: 14px;
+      padding-left: 9px;
     }
 
     .text-field::placeholder {
@@ -2809,7 +2820,7 @@ html {
     }
 
     .big {
-      height: 159px;
+      height: 158px;
     }
 
     .big::placeholder {
@@ -2822,10 +2833,10 @@ html {
 
     .submit {
       position: relative;
-      top: 40px;
+      top: 194px;
       left: 30px;
-      width: 330px;
-      height: 38px;
+      width: 315px;
+      height: 50px;
       background-color: #FBC65F;
       border: 1px #f0d8d9 solid;
       border-radius: 6px;
@@ -2836,9 +2847,9 @@ html {
 
     .contact-information {
       position: relative;
-      top: 70px;
+      top: 199px;
       left: 30px;
-      width: 221px;
+      width: 315px;
       font-family: "LatoBlack", sans-serif;
       color: #f0d8d9;
     }
@@ -2850,17 +2861,17 @@ html {
 
     .contact-description {
       position: relative;
-      top: -12px;
+      top: -25px;
       font-size: 12px;
       line-height: 22px;
     }
 
     .contacts-us {
       position: relative;
-      top: 1px;
+      top: -22px;
       left: 3px;
       width: 150px;
-      height: 59px;
+      height: 65px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -2903,8 +2914,8 @@ html {
 
     .last-line {
       position: relative;
-      top: 80px;
-      left: 39px;
+      top: 220px;
+      left: 40px;
       font-family: "Lato", sans-serif;
       color: #5e657e;
       letter-spacing: -0.1px;
@@ -2913,7 +2924,7 @@ html {
 
     .footer {
       margin-top: -15px;
-      margin-bottom: -67px;
+      margin-bottom: -196px;
       height: 78px;
       width: 375px;
     }
